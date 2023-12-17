@@ -421,15 +421,28 @@ a:focus, a:hover {
   letter-spacing: 1px;
   transition: 0.2s ease-in-out 0s;
 }
-.navigation .navbar-light .navbar-nav .nav-item .nav-link:hover, .navigation .navbar-light .navbar-nav .nav-item .nav-link:active, .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
+.navigation .navbar-light .navbar-nav .nav-item .nav-link-search {
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.2s ease-in-out 0s;
+}
+.navigation .navbar-light .navbar-nav .nav-item .nav-link:hover , .navigation .navbar-light .navbar-nav .nav-item .nav-link:active , .navigation .navbar-light .navbar-nav .nav-item .nav-link:focus {
   background: none;
   color: #28ABE3;
 }
+
 .navigation .navbar-light .navbar-nav .nav-item.active .nav-link {
   color: #28ABE3;
 }
+
 @media (max-width: 991px) {
   .navigation .nav-link {
+    padding: 6px !important;
+  }
+  .navigation .nav-link-search{
     padding: 6px !important;
   }
   .navigation .navbar-collapse.show {
@@ -514,6 +527,9 @@ a:focus, a:hover {
   .navigation .navbar-light .navbar-nav .nav-item .nav-link {
     color: #000;
   }
+  .navigation .navbar-light .navbar-nav .nav-item .nav-link-search{
+    color: #000;
+  }
   .navigation .logo-white {
     display: none;
   }
@@ -529,7 +545,10 @@ a:focus, a:hover {
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.06);
   background: #fff;
 }
-.sticky-header .navbar-light .navbar-nav .nav-item .nav-link {
+.sticky-header .navbar-light .navbar-nav .nav-item .nav-link  {
+  color: #000;
+}
+.sticky-header .navbar-light .navbar-nav .nav-item .nav-link-search  {
   color: #000;
 }
 .sticky-header .logo-white {

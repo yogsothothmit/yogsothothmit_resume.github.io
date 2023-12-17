@@ -8,142 +8,199 @@
 -->
 
 <html lang="en">
-<head>
-
-  <!-- Basic Page Needs
-  ================================================== -->
-  <meta charset="utf-8">
-  <title>Bingo | Responsive Multipurpose Parallax HTML5 Template</title>
-
-  <!-- Mobile Specific Metas
-  ================================================== -->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="One page parallax responsive HTML Template">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
-  <meta name="author" content="Themefisher">
-  <meta name="generator" content="Themefisher Bingo HTML Template v1.0">
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-
-  <!-- CSS
-  ================================================== -->
-  <!-- Themefisher Icon font -->
-  <link rel="stylesheet" href="plugins/themefisher-font/style.css">
-  <!-- bootstrap.min css -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- Lightbox.min css -->
-  <link rel="stylesheet" href="plugins/lightbox2/css/lightbox.min.css">
-  <!-- animation css -->
-  <link rel="stylesheet" href="plugins/animate/animate.css">
-  <!-- Slick Carousel -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css">
-
-</head>
-<body id="body">
-
-  <!--
-  Start Preloader
-  ==================================== -->
-  <div id="preloader">
-    <div class='preloader'>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-  <!--
-  End Preloader
-  ==================================== -->
-
-<!--
-Fixed Navigation
-==================================== -->
-<header class="navigation fixed-top">
-  <div class="container">
-    <!-- main nav -->
-    <nav class="navbar navbar-expand-lg navbar-light px-0">
-      <!-- logo -->
-      <a class="navbar-brand logo" href="index.html">
-        <img loading="lazy" class="logo-default" src="images/logo.png" alt="logo" />
-        <img loading="lazy" class="logo-white" src="images/logo-white.png" alt="logo" />
-      </a>
-      <!-- /logo -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
-        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navigation">
-        <ul class="navbar-nav ml-auto text-center">
-          <li class="nav-item dropdown ">
-            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Homepage <i class="tf-ion-chevron-down"></i>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="index.html">Homepage</a></li>
-              <li><a class="dropdown-item" href="onepage-slider.html">Onepage</a></li>
-              <li><a class="dropdown-item" href="onepage-text.html">Onepage 2</a></li>
-									
-              <li class="dropdown dropdown-submenu dropright">
-                <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu  <i class="tf-ion-chevron-down"></i></a>
-      
-                <ul class="dropdown-menu" aria-labelledby="dropdown0501">
-                  <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                  <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="about.html">About Us</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="service.html">Services</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="Operation.html">Operation</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="team.html">Team</a>
-          </li>
-          <li class="nav-item  active ">
-            <a class="nav-link" href="pricing.html">Pricing</a>
-          </li>
-          <li class="nav-item ">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown02" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Pages <i class="tf-ion-chevron-down"></i>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
-              <li><a class="dropdown-item" href="404.html">404 Page</a></li>
-              <li><a class="dropdown-item" href="blog.html">Blog Page</a></li>
-              <li><a class="dropdown-item" href="single-post.html">Blog Single Page</a></li>
-									
-              <li class="dropdown dropdown-submenu dropleft">
-                <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0201" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu  <i class="tf-ion-chevron-down"></i></a>
-      
-                <ul class="dropdown-menu" aria-labelledby="dropdown0201">
-                  <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
-                  <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
+  <head>
+    <style>
+          body {
+              background-color: #000000; /* 设置背景颜色 */
+              font-family: 'Arial', sans-serif;
+              text-align: center;
+              margin: 50px;
+          }
+  
+          form {
+              display: inline-block;
+              background-color: #ffffff00; /* 设置表单背景颜色 */
+              padding: 13px;
+              border-radius: 5px; /* 设置边框圆角 */
+              border: 1px solid #cccccc00; /* 设置边框颜色和宽度 */
+              box-shadow: 0 0 10px rgba(0, 0, 0, 0); /* 设置阴影效果 */
+          }
+  
+          label {
+              font-weight: bold;
+          }
+  
+          input[type="text"] {
+              padding: 4px;
+        background-color:#00000000;
+              margin-right: 10px;
+              border: 1px solid #929292ad; /* 设置输入框边框 */
+              border-radius: 5px; /* 设置输入框边框圆角 */
+          }
+  
+          input[type="submit"] {
+              padding: 5px 10px;
+              background-color: #ade2f79f; /* 设置按钮背景颜色 */
+              color: #000000; /* 设置按钮文字颜色 */
+              border: none; /* 去掉按钮边框 */
+              border-radius: 4px; /* 设置按钮边框圆角 */
+              cursor: pointer;
+          }
+  
+          input[type="submit"]:hover {
+              background-color: #9ab1ff; /* 设置鼠标悬停时按钮背景颜色 */
+          }
+      </style>
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Bingo | Responsive Multipurpose Parallax HTML5 Template</title>
+  
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="One page parallax responsive HTML Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="author" content="Themefisher">
+    <meta name="generator" content="Themefisher Bingo HTML Template v1.0">
+  
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+  
+    <!-- CSS
+    ================================================== -->
+    <!-- Themefisher Icon font -->
+    <link rel="stylesheet" href="plugins/themefisher-font/style.css">
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <!-- Lightbox.min css -->
+    <link rel="stylesheet" href="plugins/lightbox2/css/lightbox.min.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="plugins/animate/animate.css">
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+  
+  </head>
+  <body id="body">
+  
+    <!--
+    Start Preloader
+    ==================================== -->
+    <div id="preloader">
+      <div class='preloader'>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-    </nav>
-    <!-- /main nav -->
-  </div>
-</header>
+    </div>
+    <!--
+    End Preloader
+    ==================================== -->
+  
+  <!--
+  Fixed Navigation
+  ==================================== -->
+  <header class="navigation fixed-top">
+    <div class="container">
+      <!-- main nav -->
+      <nav class="navbar navbar-expand-lg navbar-light px-0">
+        <!-- logo -->
+        <a class="navbar-brand logo" href="index.html">
+          <img loading="lazy" class="logo-default" src="images/logo.png" alt="logo" />
+          <img loading="lazy" class="logo-white" src="images/logo-white.png" alt="logo" />
+        </a>
+        <!-- /logo -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navigation">
+          <ul class="navbar-nav ml-auto text-center">
+            <li class="nav-item dropdown active">
+              <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Homepage <i class="tf-ion-chevron-down"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="index.html">Homepage</a></li>
+                <li><a class="dropdown-item" href="onepage-slider.html">Onepage</a></li>
+                <li><a class="dropdown-item" href="onepage-text.html">Onepage 2</a></li>
+                    
+                <li class="dropdown dropdown-submenu dropright">
+                  <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu  <i class="tf-ion-chevron-down"></i></a>
+        
+                  <ul class="dropdown-menu" aria-labelledby="dropdown0501">
+                    <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
+                    <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="service.html">Services</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="Operation.html">Operation</a>
+            </li>
+        <!-- 
+            <li class="nav-item ">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+      -->
+        <!-- 
+            <li class="nav-item ">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+      -->
+        <!-- 
+            <li class="nav-item ">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        -->
+        <!-- -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#!" id="navbarDropdown02" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Pages <i class="tf-ion-chevron-down"></i>
+              </a>
+        
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown02">
+                <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+                <li><a class="dropdown-item" href="blog.html">Blog Page</a></li>
+                <li><a class="dropdown-item" href="single-post.html">Blog Single Page</a></li>
+                    
+                <li class="dropdown dropdown-submenu dropleft">
+                  <a class="dropdown-item dropdown-toggle" href="#!" id="dropdown0201" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu  <i class="tf-ion-chevron-down"></i></a>
+        
+                  <ul class="dropdown-menu" aria-labelledby="dropdown0201">
+                    <li><a class="dropdown-item" href="index.html">Submenu 01</a></li>
+                    <li><a class="dropdown-item" href="index.html">Submenu 02</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+         
+        <li class="nav-item">
+              <form action="https://www.google.com/search" method="GET">
+          <label for="search-input" class="nav-link-search">Google search: </label>
+          <input type="text" id="search-input" name="q" />
+          <input type="submit" value="Search" />
+        </form>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- /main nav -->
+    </div>
+  </header>
 <!--
 End Fixed Navigation
 ==================================== -->
